@@ -1,0 +1,47 @@
+﻿  game.cpp
+C:\Users\kevin\Desktop\Game\Game\game.cpp(123,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kevin\Desktop\Game\Game\game.cpp(128,10): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\kevin\Desktop\Game\Game\game.cpp(129,10): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\kevin\Desktop\Game\Game\game.cpp(225,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kevin\Desktop\Game\Game\game.cpp(240,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kevin\Desktop\Game\Game\game.cpp(418,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kevin\Desktop\Game\Game\game.cpp(418,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(254,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(2104,18): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int&,int&,sf::Color,sf::Color,int&>(_Ty &,int &,int &,sf::Color &&,sf::Color &&,int &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=cShape
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(2779,46): message : see reference to function template instantiation 'std::_Ref_count_obj2<cShape>::_Ref_count_obj2<int&,int&,_Ty,_Ty,int&>(int &,int &,_Ty &&,_Ty &&,int &)' being compiled
+          with
+          [
+              _Ty=sf::Color
+          ]
+C:\Users\kevin\Desktop\Game\Game\game.cpp(107,24): message : see reference to function template instantiation 'std::shared_ptr<cShape> std::make_shared<cShape,int&,int&,sf::Color,sf::Color,int&>(int &,int &,sf::Color &&,sf::Color &&,int &)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(254,82): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(2104,18): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,float,unsigned __int64,const sf::Color&,const sf::Color&,float>(_Ty &,float &&,unsigned __int64 &&,const sf::Color &,const sf::Color &,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=cShape
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(2779,46): message : see reference to function template instantiation 'std::_Ref_count_obj2<cShape>::_Ref_count_obj2<_Ty,unsigned __int64,const sf::Color&,const sf::Color&,_Ty>(_Ty &&,unsigned __int64 &&,const sf::Color &,const sf::Color &,_Ty &&)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kevin\Desktop\Game\Game\game.cpp(164,25): message : see reference to function template instantiation 'std::shared_ptr<cShape> std::make_shared<cShape,float,size_t,const sf::Color&,const sf::Color&,float>(float &&,size_t &&,const sf::Color &,const sf::Color &,float &&)' being compiled
+  main.cpp
+  Generating code
+  2 of 563 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Game.vcxproj -> C:\Users\kevin\Desktop\Game\x64\Release\Game.exe
